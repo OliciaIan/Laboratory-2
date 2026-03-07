@@ -7,6 +7,6 @@ Content for experiment 9 goes here.
 - Theory
 - Circuit diagram
 - Results
-- References
 
 </details>
+
