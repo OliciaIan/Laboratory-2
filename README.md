@@ -4,8 +4,10 @@
 Content for experiment 9 goes here.
 
 - Introduction
-- Circuit diagram(refer to the file with the same name for pictures)
-- Results
+- Circuit diagram(refer to the file)
+- Circuit Set Up(refer to the file)
+- Results(refer to the file)
+- File
 - Conclusion
 
 </details>
@@ -22,3 +24,5 @@ FM is commonly used in radio broadcasting, television sound transmission, and tw
 The main parameters used to describe frequency modulation include **carrier frequency, frequency deviation, modulating frequency, and modulation index**. These parameters determine how much the carrier frequency varies in response to the input signal.
 
 In this experiment, the principles of frequency modulation are studied by generating an FM signal using a telecommunications trainer system and observing the resulting waveform using measurement instruments such as an oscilloscope.
+
+
