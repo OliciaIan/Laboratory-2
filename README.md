@@ -7,7 +7,7 @@ Content for experiment 9 goes here.
 - Circuit diagram(refer to the file)
 - Circuit Set Up(refer to the file)
 - Results(refer to the file)
-- File
+- File(Experiment 9.pdf)
 - Conclusion
 
 Introduction:
