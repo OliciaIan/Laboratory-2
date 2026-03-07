@@ -12,6 +12,7 @@ Content for experiment 9 goes here.
 Introduction:
 Frequency Modulation (FM)
 
+
 Frequency Modulation (FM) is a type of analog modulation technique in which the **frequency of a carrier signal is varied according to the amplitude of the message (modulating) signal**, while the amplitude of the carrier remains constant. FM is widely used in communication systems because of its strong resistance to noise and signal interference.
 
 In an FM system, a high-frequency carrier wave is combined with a low-frequency information signal such as voice or music. The instantaneous frequency of the carrier changes in proportion to the instantaneous amplitude of the modulating signal. This allows the original information to be transmitted over long distances through radio frequency channels.
