@@ -24,6 +24,14 @@ The main parameters used to describe frequency modulation include **carrier freq
 
 In this experiment, the principles of frequency modulation are studied by generating an FM signal using a telecommunications trainer system and observing the resulting waveform using measurement instruments such as an oscilloscope.
 
+Conclusion:
+
+The Emona telecommunications trainer was used in this experiment to study the idea and workings of frequency modulation (FM). The experiment showed how a carrier signal's frequency varies in response to the input modulating signal's amplitude while the carrier amplitude stays constant.
+
+It was verified that the carrier's instantaneous frequency fluctuates proportionately to the message signal by looking at the circuit configuration and output waveforms. The experiment also demonstrated the impact of varying modulating signal amplitudes on the FM signal's frequency deviation.
+
+The underpinnings of frequency modulation were confirmed by the circuit and oscilloscope measurements. The creation of FM signals and their properties in real-world communication systems were better understood thanks to this experiment.
+
 </details>
 
 
