@@ -1,12 +1,16 @@
-# Laboratory-2
 <details>
 <summary>Experiment 9: FM Modulation</summary>
 
-Content for experiment 9 goes here.
+## Objective
+To study frequency modulation.
 
-- Theory
-- Circuit diagram
-- Results
+## Circuit Diagram
+![Circuit](images/fm_circuit.png)
+
+## Output
+![Waveform](images/fm_waveform.png)
+
+## References
+- https://electronicscoach.com/frequency-modulation.html
 
 </details>
-
