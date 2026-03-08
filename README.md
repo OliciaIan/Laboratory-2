@@ -185,12 +185,9 @@ The experiment demonstrates that **analog signals can be converted into digital 
 
 If the sampling frequency falls below this rate, **aliasing distortion** occurs, proving that the sampling frequency is critical for accurate signal recovery.
 
-<details>
-
-
 
 <details>
-<summary>Experiment 12: PCM Encoding<summary>
+<summary>Experiment 12: PCM Encoding</summary>
 
 Introduction
 **Pulse Code Modulation (PCM)** is the standard method for converting analog signals into a **serial stream of binary digits (0s and 1s)**.
