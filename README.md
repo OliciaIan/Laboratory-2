@@ -187,10 +187,12 @@ If the sampling frequency falls below this rate, **aliasing distortion** occurs,
 
 ---
 <details>
-   
-<details>
 
-</summary>Experiment 12: PCM Encoding</summary>
+
+
+
+<details>
+<summary>Experiment 12: PCM Encoding</summary>
 
 ## Introduction
 **Pulse Code Modulation (PCM)** is the standard method for converting analog signals into a **serial stream of binary digits (0s and 1s)**.
