@@ -139,6 +139,8 @@ Reconstructing the original message from these samples is achieved by passing th
 ## Overall Conclusion
 This experiment demonstrates that analog signals can be converted into digital samples using **natural sampling or sample-and-hold methods**. The original signal can be reconstructed using a **low-pass filter**, provided the sampling rate meets the **Nyquist criterion**. If the sampling rate is too low, **aliasing distortion** occurs.
 
+- File()
+
 </details>
 
 
