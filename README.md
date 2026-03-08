@@ -60,8 +60,6 @@ The FM demodulation experiment using the Emona Trainer 101 demonstrates how a fr
 
 </details>
 
-# Telecommunications Laboratory Experiments
-
 <details>
 <summary>Experiment 11: Sampling and Reconstruction</summary>
 
