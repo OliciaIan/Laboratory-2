@@ -195,3 +195,107 @@ Increasing the number of bits increases quantization levels and **reduces quanti
 The experiment demonstrates the **PCM encoding process**, converting analog signals into **digital binary data**. It also shows that **quantization error is unavoidable**, but increasing the **bit depth** improves signal accuracy.
 
 </details>
+
+<details>
+<summary>Experiment 13: PCM Decoding</summary>
+
+## Introduction
+PCM Decoding is the process of recovering an **analog message** from a serial stream of binary numbers. The decoder must identify frames, extract binary values, generate proportional voltages, and hold that voltage to produce a **Pulse Amplitude Modulation (PAM)** signal before filtering.
+
+Proper **synchronization** is essential. The decoder must use the **same clock and frame synchronization signal** as the encoder to avoid errors.
+
+## Objectives
+- Convert a **sine wave and speech** to a PCM data stream.
+- Convert the PCM stream back to a **PAM signal** using the PCM Decoder module.
+- Recover the original message using a **Tuneable Low-pass Filter**.
+
+## Materials Used
+- Emona Telecoms-Trainer 101
+- Dual-channel 20MHz oscilloscope
+- PCM Encoder and PCM Decoder modules
+- Tuneable Low-pass Filter module
+- One set of headphones
+
+## Procedures
+
+### Part A: Setting up the PCM Encoder
+1. Connect the **PCM Encoder** to a **100kHz DIGITAL clock**.
+2. Apply a **Variable DC voltage** as the input.
+3. Observe the **serial PCM data output** on the oscilloscope.
+4. Verify that the binary data changes when the DC input voltage is varied.
+
+### Part B: Decoding the PCM Data
+1. Connect the **PCM DATA, CLK, and FS signals** from the Encoder to the Decoder module (shared or "stolen" clock/sync).
+2. View the **Decoder output** on the oscilloscope.
+3. Compare it with the original message signal.
+4. Listen to the **raw Decoder output** using the Buffer module and headphones.
+
+### Part C: Encoding and Decoding Speech
+1. Replace the sine wave input with the **Speech module**.
+2. Speak into the microphone.
+3. Observe the **real-time encoding and decoding** of voice signals.
+
+### Part D: Recovering the Message
+1. Pass the **Decoder output** through the **Tuneable Low-pass Filter**.
+2. Adjust the **cut-off frequency** until the output resembles the original signal both visually and audibly.
+
+## Answers to Questions
+
+**Question 1:** What does the PCM Decoder's "stepped" output indicate?  
+**Answer:**  
+It indicates the signal is a **Pulse Amplitude Modulation (PAM)** signal consisting of sampled and held voltage levels.
+
+**Question 2:** What must be done to the PCM Decoder output to reconstruct the message properly?  
+**Answer:**  
+The signal must pass through a **low-pass filter** to smooth the steps and remove high-frequency components.
+
+**Question 3:** Why is the reconstructed message not a perfect copy of the original signal?  
+**Answer:**  
+Because of **quantization error** introduced during encoding when the actual sample value is approximated to the nearest quantization level.
+
+## Overall Conclusion
+PCM Decoding successfully reconstructs analog signals from binary data as long as the **encoder and decoder remain synchronized**. Although the reconstructed signal closely resembles the original, **quantization error** prevents it from being an exact replica.
+
+</details>
+
+
+<details>
+<summary>Experiment 14: Bandwidth Limiting and Restoring Digital Signals</summary>
+
+## Introduction
+All communication channels (such as **wires, fiber optics, or wireless links**) have a **limited bandwidth**, meaning they attenuate higher-frequency signals.
+
+Digital signals consist of a **fundamental frequency plus many harmonics**. If the channel bandwidth is too narrow, these harmonics are removed, causing **distortion** that can make the digital data unreadable.
+
+## Objectives
+- Observe the effects of **bandwidth limiting** on a PCM data stream.
+- Use a **comparator** to restore the digital signal.
+- Investigate the **limitations of signal restoration**.
+
+## Materials Used
+- Emona Telecoms-Trainer 101
+- Dual-channel 20MHz oscilloscope
+- Tuneable Low-pass Filter module
+- PCM Encoder and Decoder modules
+
+## Procedures
+1. Set up a **PCM transmission system** by connecting the **Encoder to the Decoder**.
+2. Insert a **Tuneable Low-pass Filter** between the Encoder's **DATA output** and the Decoder's **DATA input** to simulate a **bandwidth-limited channel**.
+3. Set the filter **cut-off frequency fully clockwise** and observe correct signal reconstruction.
+4. Slowly **reduce the filter cut-off frequency**, narrowing the channel bandwidth.
+5. Observe how the digital pulses become **rounded and distorted**.
+6. Notice the eventual **failure of the reconstructed audio signal**.
+7. Insert a **comparator/limiter circuit** before the decoder.
+8. Observe how the comparator **restores the square shape of the digital pulses** and improves decoding.
+
+## Answers to Questions
+
+**Question:** How does the channel affect the digital signal?
+
+**Answer:**  
+The channel behaves like a **low-pass filter**, attenuating the high-frequency harmonics of the digital signal. This causes the sharp edges of the digital pulses to become **rounded**, and if the bandwidth is too limited, the pulses merge and the data becomes unreadable.
+
+## Overall Conclusion
+This experiment demonstrates that **digital communication systems depend heavily on channel bandwidth**. While **signal restoration circuits** like comparators can regenerate distorted pulses, they have limits. If the channel bandwidth becomes too narrow, **critical signal information is lost and cannot be recovered**.
+
+</details>
