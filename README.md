@@ -141,7 +141,7 @@ This experiment demonstrates that analog signals can be converted into digital s
 
 </details>
 
----
+
 
 <details>
 <summary>Experiment 12: PCM Encoding</summary>
