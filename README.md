@@ -7,7 +7,6 @@ Content for experiment 9 goes here.
 - Circuit diagram(refer to the file)
 - Circuit Set Up(refer to the file)
 - Results(refer to the file)
-- File(https://github.com/OliciaIan/Laboratory-2/blob/main/Experiment%209.pdf)
 - Conclusion
 
 Introduction:
@@ -43,7 +42,6 @@ Content for experiment 10 goes here.
 - Circuit diagram(refer to the file)
 - Circuit Set Up(refer to the file)
 - Results(refer to the file)
-- File(Laboratory-2/Experiment 10.pdf at main · OliciaIan/Laboratory-2)
 - Conclusion
 
 Introduction:
@@ -139,7 +137,6 @@ Reconstructing the original message from these samples is achieved by passing th
 ## Overall Conclusion
 This experiment demonstrates that analog signals can be converted into digital samples using **natural sampling or sample-and-hold methods**. The original signal can be reconstructed using a **low-pass filter**, provided the sampling rate meets the **Nyquist criterion**. If the sampling rate is too low, **aliasing distortion** occurs.
 
-- File()
 
 </details>
 
