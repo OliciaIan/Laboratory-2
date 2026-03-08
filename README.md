@@ -59,8 +59,8 @@ Conclusion:
 The FM demodulation experiment using the Emona Trainer 101 demonstrates how a frequency-modulated signal can be successfully converted back into its original message signal. The experiment shows that by using circuits such as frequency discriminator, the frequency variations of the FM carrier can be detected and transformed into amplitude variations corresponding to the original information signal.
 
 </details>
-
-# Experiment 11: Sampling and Reconstruction
+>
+<summary>Experiment 11: Sampling and Reconstruction</summary>
 
 ## Introduction
 Digital transmission is rapidly replacing analog systems due to its superior resistance to electrical noise interference. Before an analog signal, such as speech or music, can be transmitted digitally, it must be converted through a process called **sampling**.
