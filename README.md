@@ -43,7 +43,7 @@ Content for experiment 10 goes here.
 - Circuit diagram(refer to the file)
 - Circuit Set Up(refer to the file)
 - Results(refer to the file)
-- File()
+- File(Laboratory-2/Experiment 10.pdf at main · OliciaIan/Laboratory-2)
 - Conclusion
 
 Introduction:
