@@ -59,9 +59,11 @@ Conclusion:
 The FM demodulation experiment using the Emona Trainer 101 demonstrates how a frequency-modulated signal can be successfully converted back into its original message signal. The experiment shows that by using circuits such as frequency discriminator, the frequency variations of the FM carrier can be detected and transformed into amplitude variations corresponding to the original information signal.
 
 </details>
+
+<details>
 <summary>Experiment 11: Sampling and Reconstruction</summary>
 
-## Introduction
+Introduction:
 Digital transmission is rapidly replacing analog systems due to its superior resistance to electrical noise interference. Before an analog signal, such as speech or music, can be transmitted digitally, it must be converted through a process called **sampling**.
 
 Sampling involves measuring the analog signal's voltage at regular intervals. This experiment explores **natural sampling**, where the voltage can change during the measurement period, and **sample-and-hold schemes**, where the voltage is fixed at the instant of measurement.
@@ -77,7 +79,7 @@ Reconstructing the original message from these samples is achieved by passing th
 
 ---
 
-## Materials Used
+Materials Used
 - Emona Telecoms-Trainer 101 (plus power-pack)
 - Dual-channel 20 MHz oscilloscope
 - Two Emona Telecoms-Trainer 101 oscilloscope leads
@@ -85,9 +87,9 @@ Reconstructing the original message from these samples is achieved by passing th
 
 ---
 
-## Procedures
+Procedures
 
-### Part A: Sampling a Simple Message
+Part A: Sampling a Simple Message
 1. Gather the required equipment.
 2. Connect the setup using the **Dual Analog Switch module** to sample the **2 kHz SINE output** from the Master Signals module, controlled by the **8 kHz DIGITAL output**.
 3. Set up the oscilloscope:
@@ -101,7 +103,7 @@ Reconstructing the original message from these samples is achieved by passing th
 
 ---
 
-### Part B: Sampling Speech
+Part B: Sampling Speech
 1. Disconnect the **Master Signals module**.
 2. Connect the **Speech module output**.
 3. Set the scope **Timebase to 2 ms/div**.
@@ -109,7 +111,7 @@ Reconstructing the original message from these samples is achieved by passing th
 
 ---
 
-### Part C: Reconstructing a Sampled Message
+Part C: Reconstructing a Sampled Message
 1. Return the scope **Timebase to 0.1 ms/div**.
 2. Set the **Tuneable Low-pass Filter gain** to the middle.
 3. Turn the **cut-off frequency fully anti-clockwise**.
@@ -118,7 +120,7 @@ Reconstructing the original message from these samples is achieved by passing th
 
 ---
 
-### Part D: Aliasing
+Part D: Aliasing
 1. Connect the **VCO module** (set to **"Lo" range**) to provide a variable sampling frequency.
 2. Slowly reduce the **VCO frequency** while observing the reconstructed signal for distortion.
 3. Increase the frequency until the distortion disappears.
@@ -126,9 +128,9 @@ Reconstructing the original message from these samples is achieved by passing th
 
 ---
 
-## Answers to Questions
+Answers to Questions
 
-### Question 1
+Question 1
 **What type of sampling is this an example of?**
 
 **Answer:**  
@@ -136,7 +138,7 @@ Natural sampling.
 
 ---
 
-### Question 2
+Question 2
 **What two features of the sampled signal confirm this?**
 
 **Answer:**
@@ -154,7 +156,7 @@ Natural sampling.
 
 ---
 
-### Question 4
+Question 4
 **What is the name of the distortion that appears when the VCO module's Frequency Adjust control is turned far enough?**
 
 **Answer:**  
@@ -162,7 +164,7 @@ Aliasing.
 
 ---
 
-### Question 5
+Question 5
 **Given the message is a 2 kHz sine wave, what is the theoretical minimum frequency for the sampling signal?**
 
 **Answer:**  
@@ -170,7 +172,7 @@ Aliasing.
 
 ---
 
-### Question 6
+Question 6
 **Why is the actual minimum sampling frequency higher than the theoretical minimum?**
 
 **Answer:**  
