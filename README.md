@@ -185,8 +185,9 @@ The experiment demonstrates that **analog signals can be converted into digital 
 
 If the sampling frequency falls below this rate, **aliasing distortion** occurs, proving that the sampling frequency is critical for accurate signal recovery.
 
-
 <details>
+
+</details>
 <summary>Experiment 12: PCM Encoding</summary>
 
 Introduction
