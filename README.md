@@ -35,15 +35,15 @@ The underpinnings of frequency modulation were confirmed by the circuit and osci
 </details>
 
 <details>
-<summary>Experiment 9: FM Modulation</summary>
+<summary>Experiment 10: FM Modulation</summary>
 
-Content for experiment 9 goes here.
+Content for experiment 10 goes here.
 
 - Introduction
 - Circuit diagram(refer to the file)
 - Circuit Set Up(refer to the file)
 - Results(refer to the file)
-- File(https://github.com/OliciaIan/Laboratory-2/blob/main/Experiment%209.pdf)
+- File()
 - Conclusion
 
 Introduction:
