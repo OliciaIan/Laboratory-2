@@ -192,9 +192,10 @@ If the sampling frequency falls below this rate, **aliasing distortion** occurs,
 
 
 <details>
+   
 <summary>Experiment 12: PCM Encoding</summary>
 
-## Introduction
+Introduction
 **Pulse Code Modulation (PCM)** is the standard method for converting analog signals into a **serial stream of binary digits (0s and 1s)**.
 
 The encoding process involves:
@@ -208,14 +209,14 @@ Because most samples do not perfectly match a quantization level, a **quantizati
 
 ---
 
-## Objectives
+Objectives
 - Use the **PCM Encoder module** to convert fixed and variable **DC voltages** to PCM.
 - Convert a **continuously changing signal** to PCM.
 - Verify the operation of PCM encoding and investigate **quantization error**.
 
 ---
 
-## Materials Used
+Materials Used
 - Emona Telecoms-Trainer 101 (plus power-pack)
 - Dual-channel 20 MHz oscilloscope
 - Emona Telecoms-Trainer 101 patch leads
@@ -223,7 +224,7 @@ Because most samples do not perfectly match a quantization level, a **quantizati
 
 ---
 
-## Procedures
+Procedures
 1. Set up the **PCM Encoder module** on the Emona Telecoms-Trainer 101.
 2. Input a **fixed DC voltage** and observe the resulting **8-bit binary output** on the oscilloscope.
 3. Use the **Frame Synchronisation (FS)** signal to trigger the scope so the **8-bit data frames** are clearly identifiable.
@@ -233,9 +234,9 @@ Because most samples do not perfectly match a quantization level, a **quantizati
 
 ---
 
-## Answers to Questions
+Answers to Questions
 
-### Question 1
+Question 1
 **What is the purpose of the Frame Synchronisation (FS) signal?**
 
 **Answer:**  
